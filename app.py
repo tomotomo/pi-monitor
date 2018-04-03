@@ -28,7 +28,7 @@ if __name__ == '__main__':
             "mac": "aa:bb:cc:dd:ee",
             "time": timestamp, 
 #            "current": get_current(),
-#            "humid": get_humid(),
+            "humid": get_humid(),
             "temp": get_temp()
         }
 
