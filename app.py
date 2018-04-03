@@ -25,10 +25,11 @@ if __name__ == '__main__':
     while True:
         timestamp = datetime.datetime.now().strftime('%H:%M:%S.%f')
         data = {
+            "mac": "aa:bb:cc:dd:ee",
             "time": timestamp, 
             "temp": get_temp(),
-            "humid": get_humid(),
-            "current": get_current()
+#            "current": get_current(),
+            "humid": get_humid()
         }
 
         pp.pprint(data)
