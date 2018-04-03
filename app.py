@@ -27,9 +27,9 @@ if __name__ == '__main__':
         data = {
             "mac": "aa:bb:cc:dd:ee",
             "time": timestamp, 
-            "temp": get_temp(),
 #            "current": get_current(),
-            "humid": get_humid()
+#            "humid": get_humid(),
+            "temp": get_temp()
         }
 
         pp.pprint(data)
